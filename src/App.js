@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
+import Box from './Components/Box';
+
 import './App.css'
 
 class App extends Component{
   render(){
     return(
       <>
-        <h1>Hello World!</h1>
+        <Box />
+        <Box />
+        <Box />
       </>
     )
   }
