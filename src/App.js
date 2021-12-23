@@ -1,15 +1,20 @@
 import React, { Component } from 'react'
 import Box from './Components/Box';
 
+
+
 import './App.css'
+import Bulbs from './Components/Bulbs';
 
 class App extends Component{
   render(){
     return(
       <>
-        <Box />
-        <Box />
-        <Box />
+      <h1>Eureka!!</h1>
+       
+       <Box />
+      
+       
       </>
     )
   }

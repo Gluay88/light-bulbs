@@ -1,9 +1,6 @@
-#box {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid 2px black;
-  font-size: 30px;
+h1 {
+display: flex;
+justify-content: center;
+color: rgb(255, 166, 0);
+font-size: 35px;
 }
