@@ -1,8 +1,10 @@
 
 #bulbs {
-    height:350px;
-    padding-bottom: 25px;
+    height:150px;
+    margin: 0 0 8px 0;
+    z-index:1000;
    
   }
+
   
   

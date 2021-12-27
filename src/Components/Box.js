@@ -1,26 +1,30 @@
 import React, { Component } from "react";
 import Bulbs from './Bulbs';
 import './Box.css';
-
+import './Glow.js'
 
 class Box extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      offOn: "off",
+      offOn: "OFF",
       color: "white",
+      } 
+      
     };
-  }
+  
   toggle = () => {
-    this.state.offOn === "on"
-      ? this.setState({ offOn: "off", color: "white" })
-      : this.setState({ offOn: "on", color: "yellow" });
-  };
+    this.state.offOn === "ON"
+      ? this.setState({ offOn: "OFF", color: "white", element: " "})
+      : this.setState({ offOn: "ON", color: "rgb(235, 154, 3)"});
+  }
+  
 
   render() {
     return (
+     
       <div id="lightSwitch">
-      <Bulbs switch={this.state.color} />
+      <Bulbs switch={this.state.color} glowOn={this.state.offOn}/>
         <div
           id="box"
           onClick={this.toggle}
@@ -28,7 +32,11 @@ class Box extends Component {
         >
           {this.state.offOn}
         </div>
-      </div>
+      
+        
+    </div>
+
+     
     );
   }
 }

@@ -1,17 +1,28 @@
+
 #box {
     width: 130px;
-    height: 55px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 5px black;
-    font-size: 30px;
-    border-radius: 10px;
-    
+    border: solid 2px rgb(4, 4, 123);
+    border-radius: 5px;
+    color: rgb(7, 47, 95)
+  
   }
+ 
 #lightSwitch  {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 15px;
+    float: left;
+  
+}
+
+#lightSwitch:hover {
+  cursor: pointer;
 }

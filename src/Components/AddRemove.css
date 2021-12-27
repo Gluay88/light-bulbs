@@ -1,0 +1,33 @@
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.add-remove-button {
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    background-color: rgb(235, 154, 3);
+    border: none;
+    border-radius: 3px;
+    color:rgb(4, 4, 123);
+    font-size: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 3px 3px 6px rgb(0, 0, 52);
+    
+    
+}
+.add-remove-button:hover {
+    cursor: pointer;
+    background-color: rgb(178, 220, 255);
+    color:rgb(4, 4, 123);
+    transform: scale(1.1);
+}
